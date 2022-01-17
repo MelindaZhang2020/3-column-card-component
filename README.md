@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [my solution]()
+- Solution URL: [my solution](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-card-component-4UbMS8UkA)
 - Live Site URL: [Add live site URL here](https://loving-mahavira-a81c12.netlify.app/)
 
 ## My process
