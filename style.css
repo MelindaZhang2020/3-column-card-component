@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans&display=swap');
+body {
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-title {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 1.5rem;
+}
+.image-container img {
+    width: 15%;
+    height: auto;
+    margin: 1rem;
+}
+
+.card {
+    width: 18rem;
+    line-height: 2;
+    padding: 2rem;
+}
+#column1 {
+    background-color: hsl(31, 77%, 52%);
+}
+#column2 {
+    background-color: hsl(184, 100%, 22%);
+}
+#column3 {
+    background-color: hsl(179, 100%, 13%);
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.btn {
+    background-color: hsl(0, 0%, 95%) ;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 4.5rem;
+}
+#btn1 {
+    color: hsl(31, 77%, 52%);
+}
+#btn2 {
+    color:hsl(184, 100%, 22%);
+}
+#btn3 {
+    color: hsl(179, 100%, 13%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
