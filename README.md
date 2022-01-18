@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [my solution](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-card-component-4UbMS8UkA)
-- Live Site URL: [Add live site URL here](https://loving-mahavira-a81c12.netlify.app/)
+- Live Site URL: [live site here](https://loving-mahavira-a81c12.netlify.app/)
 
 ## My process
 
@@ -47,6 +47,30 @@ image resizing:
     width: 15%;
     height: auto;
     margin: 1rem;
+}
+```
+flexbox:
+
+centering 
+```
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+```
+Media Query:
+
+moblile responsive solution
+
+```
+@media only screen and (max-width:768px) {
+    main {
+        flex-direction: column;
+        margin: 20rem;
+    }
+    
 }
 ```
 
